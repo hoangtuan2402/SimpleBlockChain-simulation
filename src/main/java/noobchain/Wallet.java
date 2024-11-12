@@ -11,7 +11,7 @@ public class Wallet {
     public PrivateKey privateKey;
     public PublicKey publicKey;
 
-    public HashMap<String,TransactionOutput> UTXOs = new HashMap<String,TransactionOutput>();
+    public HashMap<String,TransactionOutput> UTXOs = new HashMap<>();
 
     public Wallet() {
         generateKeyPair();
